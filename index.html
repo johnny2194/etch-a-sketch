@@ -3,9 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Etch-a-sketch</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js"></script>
 </head>
 <body>
-	<canvas height="500" width="600"></canvas>
-	<button id="reset">Reset</button>
+	<div id="container">
+		<canvas id="main-canvas" height="400" width="500"></canvas>
+		<div id="controls">
+			<img id="x-knob" src="http://synth.media.mit.edu/patchwerk/img/knob/knob_front.png" alt="left-knob">
+			<button id="reset">Reset</button>
+			<img id="y-knob" src="http://synth.media.mit.edu/patchwerk/img/knob/knob_front.png" alt="right-knob">
+			</div>
+		</div>
 </body>
 </html>
